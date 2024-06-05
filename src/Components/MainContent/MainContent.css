@@ -1,0 +1,28 @@
+@import 'locomotive-scroll/dist/locomotive-scroll.css';
+
+*::selection {
+    background: black;
+    color: #fff;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    #wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    #bottom-space {
+        height: 100dvh;
+        width: 100%;
+        background: grey;
+    }
+}
+

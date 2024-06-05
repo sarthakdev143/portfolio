@@ -1,0 +1,30 @@
+#landing-div {
+    margin-top: 6rem;
+    width: 100%;
+    min-height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    align-items: center;
+    position: relative;
+    /* display: none; */
+
+    #landing-heading {
+        font-size: 2.5rem;
+    }
+
+    #img-parent {
+        width: 100%;
+        background: #eee;
+        height: 50rem;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 1rem;
+        }
+    }
+}

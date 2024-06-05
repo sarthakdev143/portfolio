@@ -1,0 +1,27 @@
+#about {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+
+    #head-text {
+        text-align: center;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 5rem;
+        }
+    }
+
+    #flying-div {
+        width: 60%;
+        height: 60rem;
+        background: #111;
+    }
+}
